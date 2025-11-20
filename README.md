@@ -1,91 +1,96 @@
-# task-5-python
-# Sales Data Analysis Using Python
+# My GitHub Pages Website
 
-This project performs **basic data analysis on a sales dataset** using
-**Pandas** and **Matplotlib**.
-
-## 📌 Features
-
--   Load CSV file using Pandas
--   Display first 5 rows
--   Show dataset information
--   Generate statistical summary
--   Group data by *Category*
--   Visualize total sales using a bar chart
+This repository contains a simple static website created using **HTML,
+CSS, and JavaScript**, and deployed using **GitHub Pages**.
 
 ------------------------------------------------------------------------
 
-## 🧪 Code Used
+## 🚀 Live Demo
 
-``` python
-import pandas as pd
-import matplotlib.pyplot as plt
+After deployment, your site will be available at:
 
-# 1. Load CSV
-df = pd.read_csv('sales.csv')
+    https://<yourusername>.github.io
 
-print("=== First 5 Rows ===")
-print(df.head())
+Replace `<yourusername>` with your GitHub username.
 
-print("
-=== Data Information ===")
-print(df.info())
+------------------------------------------------------------------------
 
-print("
-=== Statistical Info ===")
-print(df.describe())
+## 📁 Files Included
 
-# 2. Groupby Category
-grouped = df.groupby('Category')['Sales'].sum()
-print("
-=== Total Sales by Category ===")
-print(grouped)
+-   `index.html` --- Main webpage (all-in-one code)
+-   `README.md` --- Documentation
 
-# 3. Plot the chart
-grouped.plot(kind='bar')
-plt.xlabel("Category")
-plt.ylabel("Total Sales")
-plt.title("Sales Analysis")
-plt.show()
+------------------------------------------------------------------------
+
+## 🛠 Tools Used
+
+-   GitHub
+-   GitHub Pages
+-   HTML + CSS + JavaScript
+
+------------------------------------------------------------------------
+
+## 📌 How to Deploy on GitHub Pages
+
+### 1️⃣ Create a Repository
+
+Create a new GitHub repository named:
+
+    <yourusername>.github.io
+
+This name is **mandatory**.
+
+------------------------------------------------------------------------
+
+### 2️⃣ Upload Your Website Files
+
+Upload the following file to the repository:
+
+-   `index.html` (your complete website)
+
+------------------------------------------------------------------------
+
+### 3️⃣ Commit & Push (if using Git)
+
+``` bash
+git add .
+git commit -m "Initial website"
+git push origin main
 ```
 
 ------------------------------------------------------------------------
 
-## 📁 Requirements
+### 4️⃣ Open Your Website
 
-Install dependencies:
+Go to:
 
-    pip install pandas matplotlib
+    https://<yourusername>.github.io
 
-------------------------------------------------------------------------
-
-## ▶️ How to Run
-
-1.  Place **sales.csv** in the same folder as the script.
-
-2.  Save the analysis script as:
-
-        analysis.py
-
-3.  Run:
-
-        python analysis.py
+Your website should load instantly or within a few minutes.
 
 ------------------------------------------------------------------------
 
-## 📊 Output
+## 🧪 Preview (index.html Included)
 
--   Displays dataset preview
--   Shows summary statistics
--   Prints category-wise total sales
--   Shows a bar chart of sales
+Your `index.html` contains: - Header section\
+- About Me section\
+- A button with JavaScript message\
+- Footer\
+- Built-in CSS styles
 
 ------------------------------------------------------------------------
 
 ## 🎯 Outcome
 
-You will understand: - Using Pandas for data analysis\
-- Grouping & summarizing datasets\
-- Plotting charts with Matplotlib
+By completing this project, you understand:
 
-Perfect for beginners learning **data analysis**.
+-   GitHub version control\
+-   Managing web files\
+-   Deploying static websites for free\
+-   Using GitHub Pages for portfolios, projects, notes, etc.
+
+------------------------------------------------------------------------
+
+## © 2025
+
+This project is auto-generated upon user request.
